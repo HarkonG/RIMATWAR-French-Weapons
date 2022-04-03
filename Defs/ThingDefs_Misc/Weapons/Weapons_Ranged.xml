@@ -9,6 +9,8 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
       <speed>75</speed>
+      <stoppingPower>0.1</stoppingPower>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>

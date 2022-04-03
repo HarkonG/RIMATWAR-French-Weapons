@@ -94,6 +94,9 @@
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
                         <aiAimMode>SuppressFire</aiAimMode>
                     </FireModes>
+                    <weaponTags>
+                        <li>Bipod_Rifle</li>
+                    </weaponTags>
                 </li>
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -116,7 +119,7 @@
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
                         <range>44</range>
-                        <warmupTime>1.1</warmupTime>                        
+                        <warmupTime>1.1</warmupTime>
                         <defaultProjectile>Bullet_8x50mmRLebel_FMJ</defaultProjectile>
                         <soundCast>Shot_BoltActionRifle</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -127,7 +130,7 @@
                         <magazineSize>5</magazineSize>
                         <ammoSet>AmmoSet_8x50mmRLebel</ammoSet>
                     </AmmoUser>
-                    <FireModes>                        
+                    <FireModes>
                         <aiUseBurstMode>FALSE</aiUseBurstMode>
                         <aiAimMode>AimedShot</aiAimMode>
                     </FireModes>
@@ -194,7 +197,7 @@
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
                         <range>48</range>
-                        <warmupTime>1.25</warmupTime>                        
+                        <warmupTime>1.25</warmupTime>
                         <defaultProjectile>Bullet_8x50mmRLebel_FMJ</defaultProjectile>
                         <soundCast>Shot_BoltActionRifle</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -202,11 +205,11 @@
                     </Properties>
                     <AmmoUser>
                         <reloadTime>0.85</reloadTime>
-                          <reloadOneAtATime>true</reloadOneAtATime>
+                        <reloadOneAtATime>true</reloadOneAtATime>
                         <magazineSize>8</magazineSize>
                         <ammoSet>AmmoSet_8x50mmRLebel</ammoSet>
                     </AmmoUser>
-                    <FireModes>                        
+                    <FireModes>
                         <aiUseBurstMode>FALSE</aiUseBurstMode>
                         <aiAimMode>AimedShot</aiAimMode>
                     </FireModes>
