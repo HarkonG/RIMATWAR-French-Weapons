@@ -36,7 +36,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HRK_1886LebelSniper</defName>
     <label>Lebel 1886 Sniper</label>
-    <description>_</description>
+    <description>The Lebel Model 1886 rifle is an 8 mm bolt-action infantry rifle.The Lebel rifle has the distinction of being the first military firearm to use smokeless powder ammunition.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_1886LebelSniper</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -106,7 +106,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HRK_1917RSC</defName>
     <label>RSC 1917</label>
-    <description>_</description>
+    <description>The RSC M1917, is a gas-operated, semi-automatic rifle placed into service by the French Army during the latter part of World War I. It is chambered in 8mm Lebel, the rimmed cartridge used in other French Army infantry weapons of the time.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_1917RSC</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -175,7 +175,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HRK_1918Ribeyrolles</defName>
     <label>Ribeyrolles 1918</label>
-    <description>_</description>
+    <description>The Ribeyrolles 1918 was an attempt to manufacture an automatic rifle for the French forces. It was chambered in the experimental 8x35mm round, used straight blowback, was fed from a 25-round detachable magazine and had an effective range of 400 meters.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_1918Ribeyrolles</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -247,7 +247,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HRK_Chauchat</defName>
     <label>Chauchat</label>
-    <description>_</description>
+    <description>The Chauchat was one of the first light, automatic rifle-caliber weapons designed to be carried and fired by a single operator and an assistant, without a heavy tripod or a team of gunners. It set a precedent for several subsequent 20th-century firearm projects, being a portable, yet full-power automatic weapon built inexpensively and in very large numbers.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_Chauchat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
