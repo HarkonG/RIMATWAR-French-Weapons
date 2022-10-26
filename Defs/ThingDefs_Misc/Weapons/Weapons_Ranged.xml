@@ -2,9 +2,10 @@
 
 <Defs>
 
+  <!-- Lebel 1886 -->
   <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_8x50mmLebel</defName>
-    <label>8x50mm Lebel bullet</label>
+    <defName>HRK_Bullet_1886LebelSniper</defName>
+    <label>Lebel 1886 sniper bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
@@ -18,24 +19,9 @@
     </graphicData>
   </ThingDef>
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_8x35mmRibeyrolles</defName>
-    <label>8x35mm Ribeyrolles bullet</label>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>11</damageAmountBase>
-      <speed>75</speed>
-    </projectile>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-  </ThingDef>
-
-  <!-- Lebel 1886 -->
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HRK_1886LebelSniper</defName>
-    <label>Lebel 1886 Sniper</label>
+    <label>Lebel 1886 sniper</label>
     <description>The Lebel Model 1886 rifle is an 8 mm bolt-action infantry rifle.The Lebel rifle has the distinction of being the first military firearm to use smokeless powder ammunition.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_1886LebelSniper</texPath>
@@ -70,7 +56,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_8x50mmLebel</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_1886LebelSniper</defaultProjectile>
         <warmupTime>1.9</warmupTime>
         <range>40</range>
         <soundCast>Shot_BoltActionRifle</soundCast>
@@ -103,6 +89,22 @@
   </ThingDef>
 
   <!-- RSC 1917 -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_1917RSC</defName>
+    <label>RSC 1917 bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>75</speed>
+      <stoppingPower>0.1</stoppingPower>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HRK_1917RSC</defName>
     <label>RSC 1917</label>
@@ -139,7 +141,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_8x50mmLebel</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_1917RSC</defaultProjectile>
         <warmupTime>0.3</warmupTime>
         <range>22.9</range>
         <soundCast>Shot_Autopistol</soundCast>
@@ -172,6 +174,20 @@
   </ThingDef>
 
   <!-- Ribeyrolles 1918 -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_1918Ribeyrolles</defName>
+    <label>Ribeyrolles 1918 bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>75</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HRK_1918Ribeyrolles</defName>
     <label>Ribeyrolles 1918</label>
@@ -209,7 +225,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_8x35mmRibeyrolles</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_1918Ribeyrolles</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>22.9</range>
         <burstShotCount>3</burstShotCount>
@@ -244,6 +260,22 @@
   </ThingDef>
 
   <!-- Chauchat -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_Chauchat</defName>
+    <label>Chauchat bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>75</speed>
+      <stoppingPower>0.4</stoppingPower>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HRK_Chauchat</defName>
     <label>Chauchat</label>
@@ -281,7 +313,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_8x50mmLebel</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_Chauchat</defaultProjectile>
         <warmupTime>1.8</warmupTime>
         <range>24.9</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
