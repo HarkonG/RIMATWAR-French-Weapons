@@ -16,9 +16,16 @@
                 </li>
 
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="HRK_Chauchat" or defName="HRK_1917RSC" or defName="HRK_1918Ribeyrolles"]/recipeMaker/researchPrerequisite</xpath>
+                    <xpath>Defs/ThingDef[defName="HRK_1917RSC"]/recipeMaker/researchPrerequisite</xpath>
                     <value>
                         <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="HRK_Chauchat" or defName="HRK_1918Ribeyrolles"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>HRK_Research_SimpleAssaultRifles</researchPrerequisite>
                     </value>
                 </li>
 
