@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <SoundDef>
+        <defName>HRK_Interact_1886LebelSniper</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Interact_1886LebelSniper</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34</min>
+                    <max>40</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Interact_1918Ribeyrolles</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Interact_1918Ribeyrolles</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34</min>
+                    <max>40</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Interact_Chauchat</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Interact_Chauchat</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34</min>
+                    <max>40</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Interact_FM2429LMG</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Interact_FM2429LMG</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34</min>
+                    <max>40</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Interact_M1909Hotchkiss</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Interact_M1909Hotchkiss</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34</min>
+                    <max>40</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Interact_M1916BerthierCarbine</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Interact_M1916BerthierCarbine</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34</min>
+                    <max>40</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Interact_MAS38SMG</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Interact_MAS38SMG</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34</min>
+                    <max>40</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+</Defs>

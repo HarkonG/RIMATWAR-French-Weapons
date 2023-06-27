@@ -29,7 +29,7 @@
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_1886LebelSniper</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
+    <soundInteract>HRK_Interact_1886LebelSniper</soundInteract>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>4</Mass>
@@ -60,7 +60,7 @@
         <defaultProjectile>HRK_Bullet_1886LebelSniper</defaultProjectile>
         <warmupTime>3.6</warmupTime>
         <range>43</range>
-        <soundCast>Shot_BoltActionRifle</soundCast>
+        <soundCast>HRK_Shot_1886LebelSniper</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -120,7 +120,7 @@
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_M1916BerthierCarbine</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Shotgun</soundInteract>
+    <soundInteract>HRK_Interact_M1916BerthierCarbine</soundInteract>
     <statBases>
       <WorkToMake>10000</WorkToMake>
       <Mass>3</Mass>
@@ -151,7 +151,7 @@
         <defaultProjectile>HRK_Bullet_M1916BerthierCarbine</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>32</range>
-        <soundCast>Shot_Autopistol</soundCast>
+        <soundCast>HRK_Shot_M1916BerthierCarbine</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>6</muzzleFlashScale>
       </li>
@@ -209,7 +209,7 @@
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_1917RSC</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Shotgun</soundInteract>
+    <soundInteract>HRK_Interact_M1916BerthierCarbine</soundInteract>
     <statBases>
       <WorkToMake>10000</WorkToMake>
       <Mass>1.2</Mass>
@@ -240,7 +240,7 @@
         <defaultProjectile>HRK_Bullet_1917RSC</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>30</range>
-        <soundCast>Shot_Autopistol</soundCast>
+        <soundCast>HRK_Shot_1917RSC</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>6</muzzleFlashScale>
       </li>
@@ -299,7 +299,7 @@
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_1918Ribeyrolles</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_SMG</soundInteract>
+    <soundInteract>HRK_Interact_1918Ribeyrolles</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -332,7 +332,7 @@
         <range>18</range>
         <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCast>HRK_Shot_1918Ribeyrolles</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -392,7 +392,7 @@
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_MAS38SMG</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_SMG</soundInteract>
+    <soundInteract>HRK_Interact_MAS38SMG</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -425,7 +425,7 @@
         <range>20</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCast>HRK_Shot_MAS38SMG</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -486,7 +486,7 @@
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_Chauchat</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
+    <soundInteract>HRK_Interact_Chauchat</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -519,7 +519,7 @@
         <range>33.9</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
-        <soundCast>Shot_Minigun</soundCast>
+        <soundCast>HRK_Shot_Chauchat</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -578,7 +578,7 @@
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_M1909Hotchkiss</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
+    <soundInteract>HRK_Interact_M1909Hotchkiss</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -611,7 +611,7 @@
         <range>26</range>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <burstShotCount>5</burstShotCount>
-        <soundCast>Shot_Minigun</soundCast>
+        <soundCast>HRK_Shot_M1909Hotchkiss</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -669,7 +669,7 @@
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_FM2429LMG</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
+    <soundInteract>HRK_Interact_FM2429LMG</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -702,7 +702,7 @@
         <range>29</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
-        <soundCast>Shot_Minigun</soundCast>
+        <soundCast>HRK_Shot_FM2429LMG</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
