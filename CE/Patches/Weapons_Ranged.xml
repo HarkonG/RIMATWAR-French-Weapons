@@ -4,51 +4,40 @@
 
     <!--===== TOOLS FOR THE TOOL GOD =====-->
     <Operation Class="PatchOperationReplace">
-        <xpath>
-				    /Defs/ThingDef[ 
-                    defName = "HRK_Chauchat" or
-                    defName = "HRK_1886LebelSniper" or
-                    defName = "HRK_1917RSC" or
-                    defName = "HRK_1918Ribeyrolles" or
-                    defName = "HRK_FM2429LMG" or
-                    defName = "HRK_M1909Hotchkiss" or
-                    defName = "HRK_M1916BerthierCarbine" or
-                    defName = "HRK_MAS38SMG"
-                    ]/tools
-        </xpath>
+        <xpath>/Defs/ThingDef[defName = "HRK_Chauchat" or defName = "HRK_1886LebelSniper" or defName = "HRK_1917RSC" or defName = "HRK_1918Ribeyrolles" or defName = "HRK_FM2429LMG" or defName = "HRK_M1909Hotchkiss" or defName = "HRK_M1916BerthierCarbine" or defName = "HRK_MAS38SMG"]/tools</xpath>
         <value>
             <tools>
-                <Operation Class="CombatExtended.ToolCE">
+                <li Class="CombatExtended.ToolCE">
                     <label>stock</label>
                     <capacities>
-                        <li>Blunt</Operation>
+                        <li>Blunt</li>
                     </capacities>
                     <power>8</power>
                     <cooldownTime>1.55</cooldownTime>
                     <chanceFactor>1.5</chanceFactor>
                     <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
                     <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
-                </Operation>
-                <Operation Class="CombatExtended.ToolCE">
+                </li>
+                <li Class="CombatExtended.ToolCE">
                     <label>barrel</label>
                     <capacities>
-                        <li>Blunt</Operation>
+                        <li>Blunt</li>
                     </capacities>
                     <power>5</power>
                     <cooldownTime>2.02</cooldownTime>
                     <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
                     <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
-                </Operation>
-                <Operation Class="CombatExtended.ToolCE">
+                </li>
+                <li Class="CombatExtended.ToolCE">
                     <label>muzzle</label>
                     <capacities>
-                        <li>Poke</Operation>
+                        <li>Poke</li>
                     </capacities>
                     <power>8</power>
                     <cooldownTime>1.55</cooldownTime>
                     <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
                     <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
-                </Operation>
+                </li>
             </tools>
         </value>
     </Operation>
@@ -94,7 +83,9 @@
             <aiAimMode>SuppressFire</aiAimMode>
         </FireModes>
         <weaponTags>
-            <li>Bipod_Rifle</Operation>
+            <li>CE_MachineGun</li>
+            <li>CE_AI_LMG</li>
+            <li>Bipod_Rifle</li>
         </weaponTags>
     </Operation>
 
@@ -139,7 +130,9 @@
             <aiAimMode>SuppressFire</aiAimMode>
         </FireModes>
         <weaponTags>
-            <li>Bipod_Rifle</Operation>
+            <li>CE_MachineGun</li>
+            <li>CE_AI_LMG</li>
+            <li>Bipod_Rifle</li>
         </weaponTags>
     </Operation>
 
@@ -184,7 +177,9 @@
             <aiAimMode>SuppressFire</aiAimMode>
         </FireModes>
         <weaponTags>
-            <li>Bipod_Rifle</Operation>
+            <li>CE_MachineGun</li>
+            <li>CE_AI_LMG</li>
+            <li>Bipod_Rifle</li>
         </weaponTags>
     </Operation>
 
@@ -225,6 +220,9 @@
             <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_AI_SR</li>
+        </weaponTags>
     </Operation>
 
     <!-- ========== HRK_MAS38SMG ========== -->
@@ -267,6 +265,10 @@
             <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aiAimMode>Snapshot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_SMG</li>
+            <li>CE_AI_BROOM</li>
+        </weaponTags>
     </Operation>
 
     <!-- ========== HRK_1918Ribeyrolles ========== -->
@@ -309,6 +311,10 @@
             <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aiAimMode>SuppressFire</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_SMG</li>
+            <li>CE_AI_BROOM</li>
+        </weaponTags>
     </Operation>
 
     <!-- ========== HRK_1886LebelSniper ========== -->
@@ -349,6 +355,9 @@
             <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_AI_SR</li>
+        </weaponTags>
     </Operation>
 
     <Operation Class="PatchOperationReplace">
@@ -395,6 +404,9 @@
             <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aiAimMode>AimedShot</aiAimMode>
         </FireModes>
+        <weaponTags>
+            <li>CE_AI_SR</li>
+        </weaponTags>
     </Operation>
 
 </Patch>

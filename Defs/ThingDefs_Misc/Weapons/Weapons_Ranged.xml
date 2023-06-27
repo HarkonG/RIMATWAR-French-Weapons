@@ -209,7 +209,7 @@
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_1917RSC</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>HRK_Interact_M1916BerthierCarbine</soundInteract>
+    <soundInteract>HRK_Interact_1917RSC</soundInteract>
     <statBases>
       <WorkToMake>10000</WorkToMake>
       <Mass>1.2</Mass>

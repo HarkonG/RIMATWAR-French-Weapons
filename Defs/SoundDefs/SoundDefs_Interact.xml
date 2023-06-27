@@ -24,6 +24,27 @@
     </SoundDef>
 
     <SoundDef>
+        <defName>HRK_Interact_1917RSC</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Interact_1917RSC</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34</min>
+                    <max>40</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
         <defName>HRK_Interact_1918Ribeyrolles</defName>
         <context>MapOnly</context>
         <eventNames/>
