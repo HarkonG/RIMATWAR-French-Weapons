@@ -8,10 +8,10 @@
     <label>Lebel 1886 sniper bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <speed>75</speed>
-      <stoppingPower>0.1</stoppingPower>
-      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <damageAmountBase>23</damageAmountBase>
+      <speed>100</speed>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.33</armorPenetrationBase>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
@@ -31,18 +31,18 @@
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-      <WorkToMake>12800</WorkToMake>
-      <Mass>3.5</Mass>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.74</AccuracyShort>
-      <AccuracyMedium>0.92</AccuracyMedium>
-      <AccuracyLong>0.84</AccuracyLong>
-      <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.35</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.81</AccuracyMedium>
+      <AccuracyLong>0.83</AccuracyLong>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <WoodLog>20</WoodLog>
-      <Steel>60</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <WoodLog>15</WoodLog>
+      <Steel>55</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <recipeMaker>
       <recipeUsers>
@@ -50,7 +50,7 @@
       </recipeUsers>
       <researchPrerequisite>Gunsmithing</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
     <verbs>
@@ -58,8 +58,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HRK_Bullet_1886LebelSniper</defaultProjectile>
-        <warmupTime>1.9</warmupTime>
-        <range>40</range>
+        <warmupTime>3.6</warmupTime>
+        <range>43</range>
         <soundCast>Shot_BoltActionRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -84,21 +84,25 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-    <weaponTags>
-      <li>SimpleGun</li>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
     </weaponTags>
   </ThingDef>
 
-  <!-- ========== RSC 1917 ========== -->
+  <!-- ========== Berthier M1916 Carbine ========== -->
   <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_1917RSC</defName>
-    <label>RSC 1917 bullet</label>
+    <defName>HRK_Bullet_M1916BerthierCarbine</defName>
+    <label>Berthier M1916 bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <speed>75</speed>
-      <stoppingPower>0.1</stoppingPower>
-      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>70</speed>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.27</armorPenetrationBase>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
@@ -107,28 +111,29 @@
   </ThingDef>
 
   <ThingDef ParentName="HRK_RimAtWar_France_BaseHumanMakeableGun">
-    <defName>HRK_1917RSC</defName>
-    <label>RSC 1917</label>
-    <description>The RSC M1917, is a gas-operated, semi-automatic rifle placed into service by the French Army during the latter part of World War I. It is chambered in 8mm Lebel, the rimmed cartridge used in other French Army infantry weapons of the time.</description>
+    <defName>HRK_M1916BerthierCarbine</defName>
+    <label>Berthier M1916 Carbine</label>
+    <description>The Berthier rifles and carbines were a family of bolt-action small arms in 8mm Lebel, used in the French Army and French Colonial Forces, from the 1890s to the beginning of World War II.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/HRK_1917RSC</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_M1916BerthierCarbine</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <uiIconPath>UI/Weapons/HRK_1917RSC</uiIconPath>
+    <uiIconPath>UI/Weapons/HRK_M1916BerthierCarbine</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Shotgun</soundInteract>
     <statBases>
-      <WorkToMake>6000</WorkToMake>
-      <Mass>1.2</Mass>
-      <AccuracyTouch>0.80</AccuracyTouch>
-      <AccuracyShort>0.7</AccuracyShort>
-      <AccuracyMedium>0.4</AccuracyMedium>
-      <AccuracyLong>0.3</AccuracyLong>
-      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>30</Steel>
+      <Steel>50</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
+      <WoodLog>10</WoodLog>
     </costList>
     <recipeMaker>
       <recipeUsers>
@@ -136,16 +141,16 @@
       </recipeUsers>
       <researchPrerequisite>Gunsmithing</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_1917RSC</defaultProjectile>
-        <warmupTime>0.3</warmupTime>
-        <range>22.9</range>
+        <defaultProjectile>HRK_Bullet_M1916BerthierCarbine</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>32</range>
         <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>6</muzzleFlashScale>
@@ -170,6 +175,98 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponClasses>
+      <li>LongShots</li>
+    </weaponClasses>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- ========== RSC 1917 ========== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_1917RSC</defName>
+    <label>RSC 1917 bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>60</speed>
+      <stoppingPower>1.5</stoppingPower>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="HRK_RimAtWar_France_BaseHumanMakeableGun">
+    <defName>HRK_1917RSC</defName>
+    <label>RSC 1917</label>
+    <description>The RSC M1917, is a gas-operated, semi-automatic rifle placed into service by the French Army during the latter part of World War I. It is chambered in 8mm Lebel, the rimmed cartridge used in other French Army infantry weapons of the time.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_1917RSC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>UI/Weapons/HRK_1917RSC</uiIconPath>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_1917RSC</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>30</range>
+        <soundCast>Shot_Autopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>LongShots</li>
+    </weaponClasses>
     <weaponTags>
       <li>SimpleGun</li>
     </weaponTags>
@@ -181,8 +278,10 @@
     <label>Ribeyrolles 1918 bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>11</damageAmountBase>
-      <speed>75</speed>
+      <damageAmountBase>4</damageAmountBase>
+      <speed>55</speed>
+      <stoppingPower>0.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_small</texPath>
@@ -211,28 +310,28 @@
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>14000</WorkToMake>
-      <Mass>3.5</Mass>
-      <AccuracyTouch>0.85</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.35</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.7</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.30</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <WoodLog>20</WoodLog>
-      <Steel>35</Steel>
+      <Steel>40</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
+      <WoodLog>10</WoodLog>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HRK_Bullet_1918Ribeyrolles</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
-        <range>22.9</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <warmupTime>0.5</warmupTime>
+        <range>18</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
         <soundCast>Shot_HeavySMG</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -257,8 +356,106 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponClasses>
+      <li>ShortShots</li>
+      <li>RangedLight</li>
+    </weaponClasses>
     <weaponTags>
       <li>SimpleGun</li>
+      <li>ShortShots</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- ========== MAS 38 ========== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_MAS38SMG</defName>
+    <label>MAS-38 bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <stoppingPower>0.5</stoppingPower>
+      <speed>55</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="HRK_RimAtWar_France_BaseHumanMakeableGun">
+    <defName>HRK_MAS38SMG</defName>
+    <label>MAS-38</label>
+    <description>The MAS-38 is a French submachine gun designed in the 1930s and used by French and German forces during the Second World War.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_MAS38SMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>UI/Weapons/HRK_MAS38SMG</uiIconPath>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>3.2</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>55</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_MAS38SMG</defaultProjectile>
+        <warmupTime>0.7</warmupTime>
+        <range>20</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>ShortShots</li>
+      <li>RangedLight</li>
+    </weaponClasses>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>ShortShots</li>
     </weaponTags>
   </ThingDef>
 
@@ -268,10 +465,10 @@
     <label>Chauchat bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <speed>75</speed>
-      <stoppingPower>0.4</stoppingPower>
-      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>60</speed>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.18</armorPenetrationBase>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
@@ -296,32 +493,32 @@
       </recipeUsers>
       <researchPrerequisite>Gunsmithing</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>24000</WorkToMake>
-      <Mass>8.5</Mass>
-      <AccuracyTouch>0.40</AccuracyTouch>
-      <AccuracyShort>0.48</AccuracyShort>
-      <AccuracyMedium>0.35</AccuracyMedium>
-      <AccuracyLong>0.26</AccuracyLong>
+      <WorkToMake>30000</WorkToMake>
+      <Mass>6</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
       <WoodLog>20</WoodLog>
-      <Steel>45</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HRK_Bullet_Chauchat</defaultProjectile>
-        <warmupTime>1.8</warmupTime>
-        <range>24.9</range>
-        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <burstShotCount>4</burstShotCount>
+        <warmupTime>1.6</warmupTime>
+        <range>33.9</range>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
         <soundCast>Shot_Minigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -346,6 +543,192 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- ========== Hotchkiss M1909 ========== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_M1909Hotchkiss</defName>
+    <label>Hotchkiss M1909 bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>55</speed>
+      <stoppingPower>1.0</stoppingPower>
+      <armorPenetrationBase>0.17</armorPenetrationBase>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="HRK_RimAtWar_France_BaseHumanMakeableGun">
+    <defName>HRK_M1909Hotchkiss</defName>
+    <label>Hotchkiss M1909</label>
+    <description>The Hotchkiss M1909 machine gun was a light machine gun of the early 20th century, developed and built by Hotchkiss et Cie.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_M1909Hotchkiss</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>UI/Weapons/HRK_M1909Hotchkiss</uiIconPath>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <Mass>8</Mass>
+      <AccuracyTouch>0.35</AccuracyTouch>
+      <AccuracyShort>0.40</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <WoodLog>20</WoodLog>
+      <Steel>70</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_M1909Hotchkiss</defaultProjectile>
+        <warmupTime>1.6</warmupTime>
+        <range>26</range>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <burstShotCount>5</burstShotCount>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- ========== FM 24/29 ========== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_FM2429LMG</defName>
+    <label>FM 24/29 bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>55</speed>
+      <stoppingPower>1</stoppingPower>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="HRK_RimAtWar_France_BaseHumanMakeableGun">
+    <defName>HRK_FM2429LMG</defName>
+    <label>FM 24/29</label>
+    <description>The FM 24/29 was the standard light machine gun of the French Army from 1925 until the 1960s. A robust and reliable weapon, it equipped the French army for much of the twentieth century and had the reputation of being a trustworthy and quality weapon.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_FM2429LMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>UI/Weapons/HRK_FM2429LMG</uiIconPath>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_FM2429LMG</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>29</range>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
     <weaponTags>
       <li>SimpleGun</li>
     </weaponTags>
