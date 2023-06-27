@@ -48,7 +48,11 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_BasicScopes</researchPrerequisite>
+      <researchPrerequisites>
+        <li>HRK_Research_BasicScopes</li>
+        <li>Gunsmithing</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -228,7 +232,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
@@ -304,7 +308,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
@@ -397,7 +401,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -491,7 +495,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -583,7 +587,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -674,7 +678,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
