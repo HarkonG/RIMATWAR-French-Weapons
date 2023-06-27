@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[HRK] RIM AT WAR - WW1 French Weapons</name>
+	<name>[HRK] RIM AT WAR - WW1 / WW2 French Weapons</name>
 	<author>Harkon</author>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2412382876</url>
-	<packageId>Harkon.RIMATWAR.WW1FrenchWeapons</packageId>
+	<packageId>Harkon.RIMATWAR.WW1WW2FrenchWeapons</packageId>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
 	<description>
-	[HRK] RIM AT WAR - WW1 French Weapons	
+	[HRK] RIM AT WAR - WW1 / WW2 French Weapons	
 	</description>
 	<modDependencies>
 		<!--<li>
