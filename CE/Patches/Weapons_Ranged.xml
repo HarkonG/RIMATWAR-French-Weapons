@@ -337,7 +337,7 @@
         <Properties>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
-            <range>48</range>
+            <range>73</range>
             <warmupTime>1.25</warmupTime>
             <defaultProjectile>Bullet_8x50mmRLebel_FMJ</defaultProjectile>
             <soundCast>HRK_Shot_1886LebelSniper</soundCast>
