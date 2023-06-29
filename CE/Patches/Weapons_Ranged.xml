@@ -71,6 +71,10 @@
             <soundCast>HRK_Shot_M1909Hotchkiss</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <recoilPattern>Mounted</recoilPattern>
         </Properties>
         <AmmoUser>
             <reloadTime>4.3</reloadTime>
@@ -118,6 +122,10 @@
             <soundCast>HRK_Shot_FM2429LMG</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <recoilPattern>Mounted</recoilPattern>
         </Properties>
         <AmmoUser>
             <reloadTime>4</reloadTime>
@@ -165,6 +173,10 @@
             <soundCast>HRK_Shot_Chauchat</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <recoilPattern>Mounted</recoilPattern>
         </Properties>
         <AmmoUser>
             <reloadTime>4.9</reloadTime>
